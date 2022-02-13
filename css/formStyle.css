@@ -1,0 +1,67 @@
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #00a6f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.campo {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.task-input input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.task-description input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.prioridade-opcoes {
+    margin-top: 10px;
+}
+
+.prioridade-opcoes select {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.estado-opcoes {
+    margin-top: 10px;
+}
+
+.estado-opcoes select {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.add-task {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.add-task button {
+    background-color: #00a6f3;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
